@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>feedback</title>
+</head>
+<style>
+    .container{
+        border: 1px solid black;
+    border: 5px;
+    background-image: url(back.jpg);
+        background-size: cover;
+    padding-left: 80px;
+    padding-bottom: 10px;
+    padding-top: 5px;
+    width: 100%;
+    }
+.info{
+    color: brown;
+}
+.name{
+    padding: 12px;
+    margin:10px;
+    width: 40%;
+    border: 1px solid black;
+    border-radius: 6px;
+    color: brown;
+}
+.border{
+    border: 1px solid transparent;
+    background-color: rgb(67, 96,134);
+    color: whitesmoke;
+    padding: 12px 20px;
+    text-align: center;
+    margin-left: 500px;
+    cursor: pointer;
+
+}
+p{
+    color: brown;
+    font-weight: 600;
+}
+.new{
+    border-radius: 5px;
+    background-color: #D6D6D6;
+}
+.border:active{
+    background-color: brown;
+}
+
+</style>
+<body>
+    <div class="container">
+        <form action="" method="get">
+        <h2 class="info"> Information</h2>
+       <p>Name- <input type="text" placeholder="Radhe" class="new"></p>
+       <p>Email- <input type="email" class="new" ></p>
+       <p>Comments: <textarea name="Comments" cols="100" rows="7" class="new">
+                                      
+       </textarea></p>
+         
+       <p><input type="Submit" class="border" value="Submit"></p>
+        
+    </div>
+</body>
+</html>
